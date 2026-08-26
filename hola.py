@@ -3,7 +3,7 @@ import tkinter as tk
 def saludar():
     nombre = entrada.get().strip()
     if not nombre:
-        nombre = "mundo"
+        nombre = "Johan Cruz"
     lbl.config(text = f"Hola, {nombre}")
 
 root = tk.Tk()
